@@ -34,16 +34,16 @@ using Azure.Storage.Blobs.Models;
 
 using (var streadReader = new StreamReader(@"C:\Test\accountlist.csv"))
 {
-using (var csvReader = new CsvReader(streadReader, CultureInfo.InvariantCulture))
-{
-var records = csvReader.GetRecords<Accounts>().ToArray();
-foreach (var record in records)
-{
-Console.WriteLine(record.Email);
+    using (var csvReader = new CsvReader(streadReader, CultureInfo.InvariantCulture))
+    {
+        var records = csvReader.GetRecords<Accounts>().ToArray();
+        foreach (var record in records)
+        {
+            Console.WriteLine(record.Email);
 
-}
-Console.ReadLine();
-}
+        }
+        Console.ReadLine();
+    }
 }
 
 public class Accounts
