@@ -6,7 +6,7 @@ using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 
 
-//string connectionString = "DefaultEndpointsProtocol=https;AccountName=riodevstorage;AccountKey=jKTJ2w+sAjSqiLVE2LDNHDX7q1tQ6nWV35Tkj8tAX9BMZHuZzVMpmzToBtdi/oM28qODPkarCEyb8mHy9ZaadA==;EndpointSuffix=core.windows.net";
+//string connectionString = "blob con string";
 
 ////string connectionString = Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING");
 
